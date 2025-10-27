@@ -1,0 +1,87 @@
+{
+  "greeting": "Hello! I Am",
+  "name": "Omar Ahmed",
+  "tagline": "Design is the cover, ",
+  "taglineHighlight": "code is the story",
+  "aboutMe": "About Me",
+  "aboutMeDescription": "I am a passionate front-end developer with a knack for creating visually appealing and user-friendly web applications. With a strong foundation in HTML, CSS, and JavaScript, I specialize in bringing designs to life through clean and efficient code. I thrive in collaborative environments and enjoy working closely with designers to ensure seamless integration of design and functionality. My goal is to deliver exceptional user experiences that leave a lasting impression.",
+  "skills": "Skills",
+  "projects": "Projects",
+  "contact": "Contact Me",
+  "sendMessage": "Send Message",
+  "footerText": "© 2024 Omar Ahmed. All rights reserved.",
+  "Frontend_Def": "A Front end who",
+  "Code_Def": "code is the",
+  "Story": "story",
+  "Positive": "Because if the cover does not impress you what else can?",
+  "defintion": {
+    "1": "I'm a Front end Developer.",
+    "2": "Currently, I'm a Front end Developer   ",
+    "3": "Facebook",
+    "4": "A self-taught Front-End Developer with 2+ years of experience, building fast, responsive, and user-friendly web applications. I craft digital products that balance seamless user experiences with solid technical performance."
+  },
+
+  "languages_title": "I'm currently working with these languages, driven by a passion ",
+  "language_title_2": "for improving people's lives through accessible design.",
+  "Work_Experience": "Work Experience",
+  "work_experience": {
+    "1": {
+      "Link": "https://www.linkedin.com/company/egfwd/about/",
+      "Image": "/assets/image/mogo.png",
+      "Title": "Front End Developer",
+      "Description": "Connect your clients globally through our seamless onboarding process."
+    },
+    "2": {
+      "Link": "https://www.linkedisacn.com/company/egfwd/about/",
+      "Image": "/assets/image/HoorBook.png",
+      "Title": "Web Designer",
+      "Description": "Take your project forward flawlessly with our next-gen digital process"
+    },
+    "3": {
+      "Link": "https://www.linkedisacn.com/company/egfwd/abouts/",
+      "Image": "/assets/image/Creative.png",
+      "Title": "Front end Designer",
+      "Description": "Take your project forward flawlessly with our next-gen digital process"
+    }
+  },
+  "projects": {
+    "1": {
+      "Link": "",
+      "Image": "/assets/image/mogo.svg",
+      "Title": "Mogo Projects",
+      "Sup_title": "Money on the go",
+      "Description": "Worked as a Front-End Developer at Mogo, contributing to a variety of innovative web projects across different industries. Focused on building responsive, high-performance user interfaces using  Angular.js, and Bootstrap CSS. Collaborated closely with design and backend teams to deliver seamless digital experiences that align with client goals and brand identity.",
+      "reverse": false
+    },
+    "2": {
+      "Link": "https://web.hoorbookapp.com/",
+      "Image": "/assets/image/HoorBook.svg",
+      "Title": "HoorBook",
+      "Sup_title": "HoorBook App",
+      "Description": "A modern and responsive front-end web application built for a Hyper Market. Designed to provide an intuitive online shopping experience, featuring dynamic product listings, smart search and filtering, shopping cart management, and seamless checkout integration. The project focuses on performance optimization and clean, user-friendly UI using Next.ts and Tailwind CSS.",
+      "reverse": true
+    },
+    "3": {
+      "Link": "https://movienext-omar-ahmeds-projects.vercel.app/",
+      "Image": "/assets/image/logo-color.png",
+      "Title": "Movie",
+      "Sup_title": "Movie App",
+   "Description": "Developed a responsive Movies Explorer web application that allows users to browse, search, and discover popular and trending films. Integrated with The Movie Database (TMDb) API to fetch real-time movie details, ratings, and trailers. Built using React, Next.js, and Tailwind CSS with a focus on fast performance, smooth animations, and an engaging user interface.",
+    "reverse": false
+    },
+        "4": {
+      "Link": "https://dangila-web-site.vercel.app/",
+      "Image": "https://i0.wp.com/tajperf.com/wp-content/uploads/2021/11/12.jpg?fit=1080%2C1080&ssl=1",
+      "Title": "Dangila",
+      "Sup_title": "Dangila App",
+         "Description": "A modern and responsive front-end web application built for a Perfiom. Designed to provide an intuitive online shopping experience, featuring dynamic product listings, smart search and filtering, shopping cart management, and seamless checkout integration. The project focuses on performance optimization and clean, user-friendly UI using Next.ts and Tailwind CSS.",
+"reverse": true
+    }
+    
+},
+"footer":{
+    "contact":"Contact Me",
+    "text":"© 2024 Omar Ahmed. All rights reserved.",
+    "gmail":"omarahmedramadan77@gmail.com"
+}
+}
