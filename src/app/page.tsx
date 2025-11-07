@@ -65,7 +65,7 @@ export default function Home() {
               {textjson.tagline}
               <br />
               {textjson.Code_Def}
-              <span className="inline-block px-8 py-2 ml-1 relative text-[#7127BA]">
+              <span className="inline-block px-8 py-2 ml-1 sm:px-12 relative text-[#7127BA]">
                 {textjson.Story}
                 <Image
                   src={Ellips}
@@ -110,14 +110,14 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="information w-[892px] pr-10 h-[187px] mt-10 max-sm:w-full max-sm:pr-0 max-sm:px-3">
+          <div className="information w-[892px] pr-10 h-[187px] mt-10 max-sm:w-full sm:text-center sm:mb-6 max-sm:pr-0 max-sm:px-3">
             <p className="text-[22px]">{textjson.defintion["4"]}</p>
           </div>
         </div>
 
         {/* Work Experience */}
         <div className="work_experience flex flex-col items-center relative justify-center px-4 text-center space-y-12 z-10 mt-20">
-          <h2 className="text-[28px] sm:text-[40px] md:text-[50px] font-semibold z-10">
+          <h2 className="text-[28px] sm:text-[20px] sm:mt-4 md:text-[50px] font-semibold z-10">
 {textjson.Work_Experience}</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-y-0 md:gap-x-52 w-full max-w-6xl place-items-center gap-10 z-10">

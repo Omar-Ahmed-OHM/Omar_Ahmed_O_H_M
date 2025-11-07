@@ -41,7 +41,7 @@ const Projects = (props: Projects) => {
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-5 rounded-[14px] max-sm:text-center">
                 <p
                   className={`project__description text-[15px] text-[#B2B2B2] leading-relaxed 
-                  ${reverse ? 'text-right' : 'text-left'} max-sm:text-center`}
+                 md:${reverse ? 'text-right ' : 'text-left '} max-sm:w-full text-left  whitespace-pre-line`}
                 >
                   {Description}
                 </p>
