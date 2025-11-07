@@ -38,7 +38,8 @@ export default function Home() {
             <Image src={Direction} alt="Your Name" width={78.34} height={47.82} />
           </div>
           <div>
-            <p className="text-[19px] pb-4">
+            <p className="text-[14px] sm:text-[16px] md:text-[19px] pb-4">
+
               {textjson.greeting}{" "}
               <span className="text-[#7127BA]">{textjson.name}</span>
             </p>
@@ -59,7 +60,8 @@ export default function Home() {
 
           <div className="intro space-y-4 md:text-left">
             <p className="underline">{textjson.Frontend_Def}</p>
-            <p className="md:text-[50px] leading-tight">
+            <p className="text-[26px] sm:text-[35px] md:text-[50px] leading-tight">
+
               {textjson.tagline}
               <br />
               {textjson.Code_Def}
@@ -74,13 +76,15 @@ export default function Home() {
                 />
               </span>
             </p>
-            <p className="text-[11px]">{textjson.Positive}</p>
+            <p className="text-[10px] sm:text-[12px]">
+{textjson.Positive}</p>
           </div>
         </div>
 
         {/* Definition */}
         <div className="definition mt-20 max-sm:mt-12">
-          <h2 className="text-[50px] text-center sm:text-left">
+          <h2 className="text-[28px] sm:text-[40px] md:text-[50px] text-center sm:text-left">
+
             {textjson.defintion["1"]}
           </h2>
           <br />
@@ -113,7 +117,8 @@ export default function Home() {
 
         {/* Work Experience */}
         <div className="work_experience flex flex-col items-center relative justify-center px-4 text-center space-y-12 z-10 mt-20">
-          <h2 className="text-[50px] font-semibold z-10">{textjson.Work_Experience}</h2>
+          <h2 className="text-[28px] sm:text-[40px] md:text-[50px] font-semibold z-10">
+{textjson.Work_Experience}</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-y-0 md:gap-x-52 w-full max-w-6xl place-items-center gap-10 z-10">
             {Object.values(textjson.work_experience).map((work) => (
@@ -133,8 +138,8 @@ export default function Home() {
 
         {/* Languages */}
         <div className="languages flex justify-center items-center flex-col text-center z-10 p-6 mt-9">
-          <div className="title_language p-9 w-full max-sm:p-4">
-            <h2 className="text-[24px] w-[787px] max-sm:w-full">
+          <div className="title_language p-9 w-full  max-sm:p-4">
+            <h2 className="text-center text-[24px]  max-sm:w-full">
               {textjson.languages_title}
             </h2>
             <span className="text-[17px]">{textjson.language_title_2}</span>
