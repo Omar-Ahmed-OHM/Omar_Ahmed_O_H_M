@@ -17,8 +17,9 @@
   "defintion": {
     "1": "I'm a Front end Developer.",
     "2": "Currently, I'm a Front end Developer   ",
-    "3": "Facebook",
-    "4": "A self-taught Front-End Developer with 2+ years of experience, building fast, responsive, and user-friendly web applications. I craft digital products that balance seamless user experiences with solid technical performance."
+    "3": "CV",
+    "4": "A self-taught Front-End Developer with 2+ years of experience, building fast, responsive, and user-friendly web applications. I craft digital products that balance seamless user experiences with solid technical performance.",
+    "5": "/assets/image/cv.png"
   },
 
   "languages_title": "I'm currently working with these languages, driven by a passion ",
@@ -46,7 +47,7 @@
   },
   "projects": {
     "1": {
-      "Link": "",
+      "Link": "https://mogo-eg.com/ar/",
       "Image": "/assets/image/mogo.svg",
       "Title": "Mogo Projects",
       "Sup_title": "Money on the go",
@@ -81,7 +82,7 @@
 },
 "footer":{
     "contact":"Contact Me",
-    "text":"© 2024 Omar Ahmed. All rights reserved.",
+    "text":"© 2025 Omar Ahmed. All rights reserved.",
     "gmail":"omarahmedramadan77@gmail.com"
 }
 }
