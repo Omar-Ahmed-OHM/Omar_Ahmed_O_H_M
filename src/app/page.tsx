@@ -72,7 +72,7 @@ export default function Home() {
                   alt="Your Name"
                   width={283}
                   height={275}
-                  className="absolute top-3 left-1"
+                  className="absolute top-0 md:top-3 left-1"
                 />
               </span>
             </p>
@@ -83,12 +83,12 @@ export default function Home() {
 
         {/* Definition */}
         <div className="definition mt-20 max-sm:mt-12">
-          <h2 className="text-[28px] sm:text-[40px] md:text-[50px] text-center sm:text-left">
+          <h2 className="text-[28px] md:text-[50px] text-center sm:text-left">
 
             {textjson.defintion["1"]}
           </h2>
           <br />
-          <div className="text-[21px] w-full md:w-3/4 lg:w-3/4 flex flex-col sm:flex-row gap-5 items-center sm:items-start justify-center sm:justify-start text-center sm:text-left">
+          <div className="text-[14px] md:text-[21px] w-full md:w-3/4 lg:w-3/4 flex flex-col sm:flex-row gap-5 items-center sm:items-start justify-center sm:justify-start text-center sm:text-left">
             <div>{textjson.defintion["2"]}</div>
             <div className="flex gap-2 items-center">
               <span className="text-[#1877F2]">
@@ -99,7 +99,7 @@ export default function Home() {
                   height={20}
                 />
               </span>
-              <div className="text-[21px] text-[#1877F2]">
+              <div className="sm:text-[14px] md:text-[21px] text-[#1877F2]">
                 <Link
                   href={"https://drive.google.com/file/d/1sHnK6wu_kjuQdkJaer_rFHvcf8gR9EFL/view?usp=drivesdk"}
                   target="_blank"
@@ -110,13 +110,13 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="information w-[892px] pr-10 h-[187px] mt-10 max-sm:w-full sm:text-center sm:mb-6 max-sm:pr-0 max-sm:px-3">
-            <p className="text-[22px]">{textjson.defintion["4"]}</p>
+          <div className="information md:w-[892px] max-w-full md:pr-10 h-[187px] mt-10 max-sm:w-full sm:text-center sm:mb-6 max-sm:pl-5 ">
+            <p className="text-[18px] md:text-[22px]">{textjson.defintion["4"]}</p>
           </div>
         </div>
 
         {/* Work Experience */}
-        <div className="work_experience flex flex-col items-center relative justify-center px-4 text-center space-y-12 z-10 mt-20">
+        <div className="work_experience flex flex-col items-center relative justify-center px-4  text-center space-y-12 z-10 mt-10 ">
           <h2 className="text-[28px] sm:text-[20px] sm:mt-4 md:text-[50px] font-semibold z-10">
 {textjson.Work_Experience}</h2>
 
@@ -133,13 +133,13 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="absolute bg-[#40007c] w-[500px] top-2 bottom-0 rounded-full h-[500px] blur-3xl z-0 max-sm:w-[300px] max-sm:h-[300px]"></div>
+          <div className="absolute bg-[#40007c] w-[500px] top-14 bottom-0 rounded-full h-[500px] blur-3xl z-0 max-sm:w-[300px] max-sm:h-[300px]"></div>
         </div>
 
         {/* Languages */}
         <div className="languages flex justify-center items-center flex-col text-center z-10 p-6 mt-9">
           <div className="title_language p-9 w-full  max-sm:p-4">
-            <h2 className="text-center text-[24px]  max-sm:w-full">
+            <h2 className="text-center md:text-[24px] text-[18px]  max-sm:w-full">
               {textjson.languages_title}
             </h2>
             <span className="text-[17px]">{textjson.language_title_2}</span>
