@@ -48,7 +48,7 @@
   "projects": {
     "1": {
       "Link": "https://mogo-eg.com/ar/",
-      "Image": "/assets/image/mogo.svg",
+      "Image": "/assets/image/mogo (2).png",
       "Title": "Mogo Projects",
       "Sup_title": "Money on the go",
       "Description": "Worked as a Front-End Developer at Mogo, contributing to a variety of innovative web projects across different industries. Focused on building responsive, high-performance user interfaces using  Angular.js, and Bootstrap CSS. Collaborated closely with design and backend teams to deliver seamless digital experiences that align with client goals and brand identity.",
@@ -56,7 +56,7 @@
     },
     "2": {
       "Link": "https://web.hoorbookapp.com/",
-      "Image": "/assets/image/HoorBook.svg",
+      "Image": "/assets/image/HoorBook.png",
       "Title": "HoorBook",
       "Sup_title": "HoorBook App",
       "Description": "A modern and responsive front-end web application built for a Hyper Market. Designed to provide an intuitive online shopping experience, featuring dynamic product listings, smart search and filtering, shopping cart management, and seamless checkout integration. The project focuses on performance optimization and clean, user-friendly UI using Next.ts and Tailwind CSS.",
@@ -72,7 +72,7 @@
     },
         "4": {
       "Link": "https://dangila-web-site.vercel.app/",
-      "Image": "https://i0.wp.com/tajperf.com/wp-content/uploads/2021/11/12.jpg?fit=1080%2C1080&ssl=1",
+      "Image": "/assets/image/Paco-Rabanne-Invictus-Parfum.jpg",
       "Title": "Dangila",
       "Sup_title": "Dangila App",
          "Description": "A modern and responsive front-end web application built for a Perfiom. Designed to provide an intuitive online shopping experience, featuring dynamic product listings, smart search and filtering, shopping cart management, and seamless checkout integration. The project focuses on performance optimization and clean, user-friendly UI using Next.ts and Tailwind CSS.",
