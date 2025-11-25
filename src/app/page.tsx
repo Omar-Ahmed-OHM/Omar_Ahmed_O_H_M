@@ -101,7 +101,7 @@ export default function Home() {
               </span>
               <div className="sm:text-[14px] md:text-[21px] text-[#1877F2]">
                 <Link
-                  href={"https://drive.google.com/file/d/1sHnK6wu_kjuQdkJaer_rFHvcf8gR9EFL/view?usp=drivesdk"}
+                  href={"https://drive.google.com/file/d/1j_tDJDn1Q_Xj1nghbYUo2Btv_1nNL2UA/view"}
                   target="_blank"
                 >
                   {textjson.defintion["3"]}
