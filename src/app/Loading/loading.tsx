@@ -45,7 +45,7 @@ export default function Loader1() {
           {"O_H_M".split("").map((char, i) => (
             <span
               key={i}
-              className="letter md:text-7xl sm:text-3xl font-extrabold text-white tracking-widest inline-block"
+              className="letter md:text-7xl sm:text-4xl font-extrabold text-white tracking-widest inline-block"
             >
               {char}
             </span>

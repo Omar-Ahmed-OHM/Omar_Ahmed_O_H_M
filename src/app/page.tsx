@@ -146,7 +146,7 @@ export default function Home() {
           </div>
           <div className="language_Image w-full flex justify-center">
             <Image
-              src={languages}
+              src={languages} 
               alt="languages"
               className="max-w-full h-auto px-3"
             />
